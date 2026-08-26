@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Human-Robot Coexistence Dataset</title>
+    <meta
+      name="description"
+      content="Official landing page for the Human-Robot Coexistence Dataset."
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <p class="site-badge">Academic Dataset</p>
+        <nav aria-label="Primary">
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#scenarios">Scenarios</a></li>
+            <li><a href="#citation">Citation</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div>
+            <p class="kicker">Official Dataset Landing Page</p>
+            <h1 id="hero-title">Human-Robot Coexistence Dataset</h1>
+            <p class="subtitle">
+              Multimodal recordings of humans and mobile robots sharing dynamic environments.
+            </p>
+            <p>
+              This dataset is designed to support reproducible research in human-robot interaction and
+              socially aware autonomy. It brings together motion capture, robot telemetry, human intent,
+              and experiment context in a unified academic resource.
+            </p>
+            <div class="button-row" role="group" aria-label="Primary dataset links">
+              <a class="btn btn-primary" data-link-key="dataset" href="#" target="_blank" rel="noopener">Access Dataset</a>
+              <a class="btn" data-link-key="publication" href="#" target="_blank" rel="noopener">Publication</a>
+              <a class="btn" data-link-key="zotero" href="#" target="_blank" rel="noopener">Zotero</a>
+            </div>
+            <p class="todo-inline">TODO: Replace placeholder links in <code>assets/script.js</code>.</p>
+          </div>
+          <figure class="placeholder-figure" aria-labelledby="hero-figcap">
+            <div class="image-placeholder" role="img" aria-label="Placeholder for hero experiment image">
+              <span>Hero/Experiment Image Placeholder</span>
+            </div>
+            <figcaption id="hero-figcap">TODO: Insert representative experiment image.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About the Dataset</h2>
+          <p>
+            The Human-Robot Coexistence Dataset contains multimodal recordings of humans and robots sharing
+            dynamic environments. It is intended to enable research on human-robot interaction, navigation,
+            coordination, intent communication, and social navigation with consistent experimental context.
+          </p>
+        </div>
+      </section>
+
+      <section id="highlights" class="section section-muted">
+        <div class="container">
+          <h2>Dataset Highlights</h2>
+          <p class="section-intro">Key statistics will be published as soon as curation is finalized.</p>
+          <div class="card-grid stats-grid" role="list" aria-label="Dataset highlight statistics">
+            <article class="card" role="listitem">
+              <p class="stat-label">Recording Sessions</p>
+              <p class="stat-value">TODO</p>
+            </article>
+            <article class="card" role="listitem">
+              <p class="stat-label">Total Duration</p>
+              <p class="stat-value">TODO</p>
+            </article>
+            <article class="card" role="listitem">
+              <p class="stat-label">Participants</p>
+              <p class="stat-value">TODO</p>
+            </article>
+            <article class="card" role="listitem">
+              <p class="stat-label">Robot Platforms</p>
+              <p class="stat-value">TODO</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="setup" class="section">
+        <div class="container">
+          <h2>Experimental Setup</h2>
+          <p>
+            The dataset captures interactions in a controlled experimental environment where human participants
+            and robots share space under multiple task conditions. Data collection includes robot onboard logs,
+            motion capture trajectories, and scenario-level metadata to support synchronized multimodal analysis.
+          </p>
+          <p>
+            TODO: Add final details about environment dimensions, participant protocol, robot hardware, OptiTrack
+            configuration, and calibration procedures.
+          </p>
+          <figure class="placeholder-figure" aria-labelledby="setup-figcap">
+            <div class="image-placeholder" role="img" aria-label="Placeholder for experimental setup figure">
+              <span>Experimental Setup Figure Placeholder</span>
+            </div>
+            <figcaption id="setup-figcap">TODO: Insert setup schematic or lab photograph.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="scenarios" class="section section-muted">
+        <div class="container">
+          <h2>Experimental Scenarios</h2>
+          <div class="card-grid" role="list" aria-label="Experimental scenarios">
+            <article class="card" role="listitem">
+              <h3>Free-space human movement</h3>
+              <p>Humans move naturally in open space while robots operate in the same environment.</p>
+            </article>
+            <article class="card" role="listitem">
+              <h3>Human movement with obstacles</h3>
+              <p>Human trajectories are recorded under obstacle constraints with concurrent robot activity.</p>
+            </article>
+            <article class="card" role="listitem">
+              <h3>Two-robot interaction</h3>
+              <p>Two mobile robots coordinate motion and conflict resolution in shared trajectories.</p>
+            </article>
+            <article class="card" role="listitem">
+              <h3>Two-robot interaction with projected robot goals / intent communication</h3>
+              <p>Ground-projected cues communicate robot intent to improve predictability and coexistence.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contents" class="section">
+        <div class="container">
+          <h2>Dataset Contents</h2>
+          <ul class="feature-list">
+            <li><span class="pill">ROS 2 bags</span> synchronized experiment recordings from robot systems</li>
+            <li><span class="pill">OptiTrack trajectories</span> motion capture trajectories for humans and robots</li>
+            <li><span class="pill">Human goals</span> task goals and intent annotations</li>
+            <li><span class="pill">Survey data</span> participant responses and subjective measurements</li>
+            <li><span class="pill">Experimental metadata</span> scenario labels, timestamps, and trial descriptors</li>
+            <li><span class="pill">Toolkit</span> dataset loading, visualization, and analysis utilities</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="organization" class="section section-muted">
+        <div class="container">
+          <h2>Dataset Organization</h2>
+          <p>Illustrative structure (update paths and file names once finalized):</p>
+          <pre class="tree" aria-label="Dataset directory tree"><code>human-robot-coexistence-dataset/
+├── data/
+│   ├── ros2_bags/                  # TODO: finalized recording folders
+│   ├── optitrack_trajectories/     # TODO
+│   ├── human_goals/                # TODO
+│   ├── survey_data/                # TODO
+│   └── metadata/                   # TODO
+├── toolkit/
+│   ├── loaders/                    # TODO
+│   ├── visualization/              # TODO
+│   └── analysis/                   # TODO
+└── docs/
+    └── TODO.md                     # TODO: replace with finalized docs</code></pre>
+        </div>
+      </section>
+
+      <section id="intent-communication" class="section">
+        <div class="container">
+          <h2>Intent Communication</h2>
+          <p>
+            A dedicated scenario in this dataset evaluates ground-projected robot goals as an intent
+            communication mechanism. These visual projections are used to make robot plans legible to nearby
+            humans, enabling controlled studies of predictability, coordination, and social navigation behavior.
+          </p>
+          <p>TODO: Add projection hardware details, rendering strategy, and synchronization notes.</p>
+        </div>
+      </section>
+
+      <section id="how-to-use" class="section section-muted">
+        <div class="container">
+          <h2>How to Use the Dataset</h2>
+          <ol class="steps">
+            <li>Use the <strong>Access Dataset</strong> button to open the dataset repository/download page.</li>
+            <li>Review metadata and scenario descriptors before analysis.</li>
+            <li>Use the provided toolkit to load ROS 2 bags, trajectories, and survey files.</li>
+            <li>Reproduce baseline analyses and adapt scripts for your research workflow.</li>
+          </ol>
+          <p class="todo-inline">TODO: Add exact setup commands after release packaging is finalized.</p>
+        </div>
+      </section>
+
+      <section id="citation" class="section">
+        <div class="container">
+          <h2>Citation</h2>
+          <p>Please cite the dataset in your publications. Placeholder metadata is shown below.</p>
+          <div class="citation-wrap">
+            <pre id="bibtex" class="bibtex"><code>@dataset{human_robot_coexistence_dataset,
+  title   = {Human-Robot Coexistence Dataset},
+  author  = {TODO: Authors},
+  year    = {TODO: Year},
+  doi     = {TODO: DOI},
+  url     = {TODO: Dataset URL}
+}</code></pre>
+            <button id="copy-bibtex" class="btn" type="button" aria-describedby="copy-status">Copy BibTeX</button>
+            <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="links" class="section section-muted">
+        <div class="container">
+          <h2>Links</h2>
+          <div class="button-row" role="group" aria-label="Dataset resources">
+            <a class="btn" data-link-key="dataset" href="#" target="_blank" rel="noopener">Dataset repository/download</a>
+            <a class="btn" data-link-key="publication" href="#" target="_blank" rel="noopener">Publication</a>
+            <a class="btn" data-link-key="zotero" href="#" target="_blank" rel="noopener">Zotero record</a>
+            <a class="btn" data-link-key="github" href="#" target="_blank" rel="noopener">GitHub repository</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="license" class="section">
+        <div class="container">
+          <h2>License</h2>
+          <p>TODO: Add dataset license text and usage terms.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Human-Robot Coexistence Dataset — Academic release page.</p>
+      </div>
+    </footer>
+
+    <script src="assets/script.js" defer></script>
+  </body>
+</html>
