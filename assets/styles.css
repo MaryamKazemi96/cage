@@ -1270,22 +1270,27 @@ transition: none !important;
   }
 
   .affiliations-section .affiliation-logos {
+    width: 100%;
+    max-width: 300px;
+
     grid-template-columns: 1fr 1fr !important;
-    grid-template-rows: 75px !important;
-    gap: 12px;
+    grid-template-rows: 55px !important;
+
+    gap: 8px;
   }
 
   .affiliations-section .affiliation-logos img {
     width: 100% !important;
-    height: 75px !important;
-    max-width: 170px !important;
-    max-height: 75px !important;
+    height: 55px !important;
+
+    max-width: 130px !important;
+    max-height: 55px !important;
   }
 
   .affiliations-section .midas-thanks {
-    max-width: 540px;
-    margin: 20px auto 0;
-    font-size: 0.82rem;
+    max-width: 320px;
+    margin: 18px auto 0;
+    font-size: 0.72rem;
     line-height: 1.6;
   }
 }
