@@ -1257,11 +1257,11 @@ transition: none !important;
 
 
 /* Mobile */
-@media (max-width: 600px) {
+@media (max-width: 200) {
 
   .affiliations-section .affiliation-logos {
     grid-template-columns: 90px 90px !important;
-    grid-template-rows: 40px !important;
+    grid-template-rows: 10px !important;
     column-gap: 25px !important;
   }
 
