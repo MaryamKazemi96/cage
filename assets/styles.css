@@ -1265,15 +1265,7 @@ transition: none !important;
     column-gap: 25px !important;
   }
 
-  .affiliations-section .affiliation-logos img {
-    width: 90px !important;
-    height: 35px !important;
-    max-width: 90px !important;
-    max-height: 35px !important;
-  }
-
-}
-@media (max-width: 600px) {
+  
   .affiliations-section img {
     width: 120px !important;
     height: 45px !important;
