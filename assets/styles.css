@@ -1220,67 +1220,73 @@ transition: none !important;
 
 }
 
-
 /* =========================================================
-   AFFILIATION LOGOS — FORCE TWO COLUMNS
+   AFFILIATION LOGOS
 ========================================================= */
 
+.affiliations-section {
+  width: 100%;
+  padding: 40px 15px 60px;
+  text-align: center;
+}
+
 .affiliations-section .affiliation-logos {
+  width: min(700px, 100%);
+  margin: 0 auto;
+
   display: grid !important;
-  grid-template-columns: 120px 120px !important;
-  grid-template-rows: 50px !important;
-  column-gap: 45px !important;
-  row-gap: 0 !important;
+  grid-template-columns: 1fr 1fr !important;
+  grid-template-rows: 100px !important;
 
-  width: fit-content !important;
-  max-width: 100% !important;
-  margin: 0 auto !important;
-
-  align-items: center !important;
-  justify-items: center !important;
+  gap: 30px;
+  align-items: center;
+  justify-items: center;
 }
 
 .affiliations-section .affiliation-logos img {
   display: block !important;
 
-  width: 120px !important;
-  height: 45px !important;
+  width: 100% !important;
+  height: 100px !important;
 
-  max-width: 120px !important;
-  max-height: 45px !important;
-
-  margin: 0 !important;
-  padding: 0 !important;
+  max-width: 280px !important;
+  max-height: 100px !important;
 
   object-fit: contain !important;
+  margin: 0 !important;
+}
+
+.affiliations-section .midas-thanks {
+  max-width: 700px;
+  margin: 25px auto 0;
 }
 
 
-/* Mobile */
-@media (max-width: 200) {
+/* MOBILE */
+
+@media screen and (max-width: 680px) {
+
+  .affiliations-section {
+    padding: 25px 10px 40px;
+  }
 
   .affiliations-section .affiliation-logos {
-    grid-template-columns: 90px 90px !important;
-    grid-template-rows: 10px !important;
-    column-gap: 25px !important;
+    grid-template-columns: 1fr 1fr !important;
+    grid-template-rows: 65px !important;
+    gap: 10px;
   }
 
-  
-  .affiliations-section img {
-    width: 120px !important;
-    height: 45px !important;
-    max-width: 120px !important;
-  }
-}
-
-@media (max-width: 680px) {
-
-  #contents {
-    padding-bottom: 35px;
+  .affiliations-section .affiliation-logos img {
+    width: 100% !important;
+    height: 65px !important;
+    max-width: 160px !important;
+    max-height: 65px !important;
   }
 
-  #how-to-use {
-    padding-top: 40px;
+  .affiliations-section .midas-thanks {
+    max-width: 330px;
+    margin: 18px auto 0;
+    font-size: 0.72rem;
+    line-height: 1.6;
   }
-
 }
