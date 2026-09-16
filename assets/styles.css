@@ -1219,7 +1219,6 @@ transition: none !important;
 }
 
 }
-
 /* =========================================================
    AFFILIATION LOGOS
 ========================================================= */
@@ -1231,14 +1230,14 @@ transition: none !important;
 }
 
 .affiliations-section .affiliation-logos {
-  width: min(700px, 100%);
+  width: min(800px, 100%);
   margin: 0 auto;
 
   display: grid !important;
   grid-template-columns: 1fr 1fr !important;
-  grid-template-rows: 100px !important;
+  grid-template-rows: 120px !important;
 
-  gap: 30px;
+  gap: 40px;
   align-items: center;
   justify-items: center;
 }
@@ -1247,18 +1246,18 @@ transition: none !important;
   display: block !important;
 
   width: 100% !important;
-  height: 100px !important;
+  height: 120px !important;
 
-  max-width: 280px !important;
-  max-height: 100px !important;
+  max-width: 340px !important;
+  max-height: 120px !important;
 
   object-fit: contain !important;
   margin: 0 !important;
 }
 
 .affiliations-section .midas-thanks {
-  max-width: 700px;
-  margin: 25px auto 0;
+  max-width: 750px;
+  margin: 28px auto 0;
 }
 
 
@@ -1272,21 +1271,21 @@ transition: none !important;
 
   .affiliations-section .affiliation-logos {
     grid-template-columns: 1fr 1fr !important;
-    grid-template-rows: 65px !important;
-    gap: 10px;
+    grid-template-rows: 75px !important;
+    gap: 12px;
   }
 
   .affiliations-section .affiliation-logos img {
     width: 100% !important;
-    height: 65px !important;
-    max-width: 160px !important;
-    max-height: 65px !important;
+    height: 75px !important;
+    max-width: 170px !important;
+    max-height: 75px !important;
   }
 
   .affiliations-section .midas-thanks {
-    max-width: 330px;
-    margin: 18px auto 0;
-    font-size: 0.72rem;
+    max-width: 540px;
+    margin: 20px auto 0;
+    font-size: 0.82rem;
     line-height: 1.6;
   }
 }
