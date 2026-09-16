@@ -1147,7 +1147,7 @@ grid-template-columns: 1fr;
 }
 
 .content-card {
-min-height: 100px;
+min-height: 10px;
 }
 
 .content-icon {
@@ -1272,6 +1272,13 @@ transition: none !important;
     max-height: 35px !important;
   }
 
+}
+@media (max-width: 600px) {
+  .affiliations-section img {
+    width: 120px !important;
+    height: 45px !important;
+    max-width: 120px !important;
+  }
 }
 
 @media (max-width: 680px) {
